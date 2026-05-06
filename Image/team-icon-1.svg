@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="bg1" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#082f49"/>
+    </radialGradient>
+    <linearGradient id="bolt1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#facc15"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 둥근 배경 -->
+  <circle cx="128" cy="128" r="124" fill="url(#bg1)"/>
+  <circle cx="128" cy="128" r="124" fill="none" stroke="#22d3ee" stroke-width="3" opacity="0.6"/>
+
+  <!-- 방패 (모던한 외곽) -->
+  <path d="M128 44
+           L62 68
+           L62 138
+           Q62 188 128 220
+           Q194 188 194 138
+           L194 68 Z"
+        fill="rgba(255,255,255,0.06)"
+        stroke="#67e8f9"
+        stroke-width="6"
+        stroke-linejoin="round"/>
+
+  <!-- 중앙 번개 (긴급·신속) -->
+  <path d="M142 78
+           L92 142
+           L122 142
+           L114 184
+           L164 120
+           L134 120 Z"
+        fill="url(#bolt1)"
+        stroke="#fef3c7"
+        stroke-width="2"
+        stroke-linejoin="round"/>
+</svg>
